@@ -660,6 +660,7 @@ color: var(--primary-bg-color);
 Multiplayer cursors hidden
 }
 
+
 .portfolio-link-overlay {
   position: relative;
   overflow: hidden;
@@ -677,6 +678,7 @@ Multiplayer cursors hidden
   background-color: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
   height: 100%;
+  width: 100%;
   transform: translateY(100%);
   transition: transform var(--transition-time) cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -710,7 +712,6 @@ Multiplayer cursors hidden
   background-color: var(--primary-bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
- 
 }
 
 .modal-btn {
@@ -726,6 +727,10 @@ Multiplayer cursors hidden
   border-radius: 50%;
   width: 30px;
   height: 30px;
+}
+
+.modal-btn:hover {
+  fill: var(--accent-color);
 }
 
 .backdrop.is-hidden {
